@@ -1,0 +1,31 @@
+name: calculator
+description: A simple Material 3 calculator built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  adaptive_icon_background: "#37474F"
+  adaptive_icon_foreground: "calculator (1).png"
+  image_path: "calculator (1).png"
+  web:
+    generate: true
+    image_path: "calculator (1).png"
+    background_color: "#37474F"
+    theme_color: "#37474F"
